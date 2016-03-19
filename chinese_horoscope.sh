@@ -9,11 +9,11 @@ read user_year
 if [ ${#user_year} -ne 4 ]
 	
 then
-	# in case of false
+	# in case of true
 	echo "Incorrect Data!"
 
 else
-	# in case of true 
+	# in case of false 
 	declare -i residue_for_animals=$((user_year%12))
 	declare -i residue_for_colours=$((user_year%10/2))
 

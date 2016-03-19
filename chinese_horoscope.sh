@@ -9,7 +9,7 @@ read user_year
 if [ ${#user_year} -ne 4 ]
 	
 	then
-	# in case of false
+	# in case of error
 	echo "Incorrect Data!"
 
 	else
